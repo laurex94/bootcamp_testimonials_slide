@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Logo-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Coding Bootcamp Testimonials Slider</title>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
+    <main class="container-fluid w-100 h-100 d-flex align-items-center justify-content-center" id="main-container">
+
+        <div id="container-bg-responsive">
+            <!--Tania-->
+            <div class="container slides fade-sl py-4 py-md-0 ">
+                <div class="row d-flex flex-column-reverse flex-md-row">
+                    <!--Left Side-->
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center col-md-6 p-1 p-md-4 left-side">
+                        <div class="col-12 pt-3  pt-md-5 bq">
+                            <p class="p-0 text-center text-md-start">“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
+                        </div>
+                        <div class="col-12 d-md-flex text-center text-md-start  ">
+                            <h6 class="mb-1 name ms-md-5 ps-md-5 fw-bold">Tanya Sinclair</h6>
+                            <h6 class="ocupation ms-md-2">UX Engineer</h6>
+                        </div>
+                    </div>
+                    <!--Right side-->
+                    <div class="col-12 col-md-6 p-1 p-md-0 f">
+                    <img src="images/image-tanya.jpg" alt="Tanya" class=" col-12 col-md-10 h-100 p-5 p-md-0">
+                    <div class=" p-0 container-btn">
+                        <div class="inner-conatiner-btn d-flex justify-content-around">
+                            <button class="btn-carousel btn-left"><img src="images/icon-prev.svg" alt=""></button>
+                            <button class="btn-carousel btn-right"><img src="images/icon-next.svg" alt=""></button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Guy-->
+            <div class="container slides fade-sl py-4 py-md-0">
+                <div class="row d-flex flex-column-reverse flex-md-row">
+                    <!--Left Side-->
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center col-md-6 p-1 p-md-4 left-side">
+                        <div class="col-12 pt-3  pt-md-5 bq">
+                            <p class="p-0 text-center text-md-start">“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”</p>
+                        </div>
+                        <div class="col-12 d-md-flex text-center text-md-start  ">
+                            <h6 class="mb-1 name ms-md-5 ps-md-5 fw-bold">John Tarkpor</h6>
+                            <h6 class="ocupation ms-md-2">Junior Front-end Developer</h6>
+                        </div>
+                    </div>
+                    <!--Right side-->
+                    <div class="col-12 col-md-6 p-1 p-md-0 f">
+                    <img src="images/image-john.jpg" alt="Tanya" class=" col-12 col-md-10 h-100 p-5 p-md-0">
+                    <div class=" p-0 container-btn">
+                        <div class="inner-conatiner-btn d-flex justify-content-around">
+                            <button class="btn-carousel btn-left" onclick="plusSlides(-1)"><img src="images/icon-prev.svg" alt=""></button>
+                            <button class="btn-carousel btn-right" onclick="plusSlides(1)"><img src="images/icon-next.svg" alt=""></button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
