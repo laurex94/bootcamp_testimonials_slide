@@ -70,7 +70,7 @@ table {
   background-image: url("../images/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-position: 20% 0;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.25em;
   position: relative;
   left: 15%;
@@ -149,21 +149,6 @@ table {
   display: none;
 }
 
-/*
-.btn-carousel.btn-left {
-    position: absolute;
-    top:-10px;
-    left: 50px;
-    border-radius: 35% 0 0 35%;
-}
-
-.btn-carousel.btn-right {
-    position: absolute;
-    top:-10px;
-    left: 90px;
-    border-radius: 0 35% 35% 0%;
-}
-*/
 /*------------------------------ Media---------------------------*/
 @media (max-width: 768px) {
   #body {
@@ -203,6 +188,16 @@ table {
     left: 35%;
     -webkit-box-shadow: #babacf 0px 10px 30px;
             box-shadow: #babacf 0px 10px 30px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .bq {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .inner-conatiner-btn {
+    width: 25%;
   }
 }
 
